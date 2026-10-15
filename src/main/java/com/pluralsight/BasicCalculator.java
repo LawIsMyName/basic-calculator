@@ -14,14 +14,23 @@ public class BasicCalculator {
         double secondNumber = inputScanner.nextDouble();
 
         System.out.println("Possible Calculations");
-        System.out.println("(A)dd");
-        char A = '+';
-        System.out.println("(S)ubtract");
-        char S = '-';
-        System.out.println("(M)ulitply");
-        char M = '*';
-        System.out.println("(D)ivide");
-        char D = '/';
+        System.out.println("(A)dd ");
+        System.out.println("(S)ubtract ");
+        System.out.println("(M)ulitply ");
+        System.out.println("(D)ivide ");
+        System.out.println("Please select option: ");
+
+        String menuChoose = inputScanner.nextLine();
+        String newLine = inputScanner.nextLine(); ///eat the new line
+        System.out.println(newLine);
+
+        double product = firstNumber * secondNumber;
+
+        System.out.println("The product is" + " " + product);
+
+
+
+
 
 
 
