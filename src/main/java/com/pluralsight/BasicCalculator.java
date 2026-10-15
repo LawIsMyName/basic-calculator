@@ -7,10 +7,19 @@ public class BasicCalculator {
         Scanner inputScanner = new Scanner(System.in);
 
         System.out.print("Enter your first number: ");
-        int firstNumber = inputScanner.nextInt();
+        double firstNumber = inputScanner.nextInt();
 
         System.out.println("Enter you second number: ");
-        int secondNumber = inputScanner.nextInt();
+        double secondNumber = inputScanner.nextInt();
+
+        System.out.println("Possible Calculations");
+        System.out.println("(A)dd");
+        System.out.println("(S)ubtract");
+        System.out.println("(M)ulitply");
+        System.out.println("(D)ivide");
+
+
+
 
 
 
