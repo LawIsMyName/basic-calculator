@@ -9,10 +9,10 @@ public class BasicCalculator {
 
         // set options for first number
         System.out.println("Enter your first number: ");
-        double firstNumber = inputScanner.nextDouble();
+        int firstNumber = inputScanner.nextInt();
         // set options for second number
         System.out.println("Enter you second number: ");
-        double secondNumber = inputScanner.nextDouble();
+        int secondNumber = inputScanner.nextInt();
 
         // give possible calculations and the types with a select option
         System.out.println("Possible Calculations");
@@ -22,16 +22,16 @@ public class BasicCalculator {
         System.out.println("(D)ivide ");
         System.out.println("Please select option: ");
 
-        // setup the option selection and eat the next line for debugging
+        // set up the option selection and eat the next line for debugging
         String menuChoose = inputScanner.nextLine();
         String newLine = inputScanner.nextLine(); ///eat the new line
         System.out.println(newLine);
 
         // give double variable a name and assign purpose
-        double product = firstNumber * secondNumber;
+        int product = firstNumber * secondNumber;
 
         // print function for the product (skipping straight to M)
-        System.out.println("The product is" + " " + product);
+        System.out.println(firstNumber + " " + "*" + " " + secondNumber + " " + "=" + " " + product);
 
 
 
